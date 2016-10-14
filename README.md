@@ -1,5 +1,13 @@
-To run:
+To run w/docker:
   `docker-compose up`
+
+To run w/ruby:
+
+  ```
+  gem install bundler
+  bundle install
+  bundle exec middleman server
+  ```
 
 Recommend development using Mou.app (http://25.io/mou/)
 
