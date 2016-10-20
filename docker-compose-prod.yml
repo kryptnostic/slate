@@ -2,6 +2,6 @@ version: "2"
 
 services:
   docs:
-    build: .
+    image: kryptnostic/slate
     ports:
       - "4567:4567"
